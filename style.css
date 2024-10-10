@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7f1f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+}
+
+.team-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #0057b8;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.team-info, .heroes-section, .common-powers, .power-levels, .quote {
+    margin: 20px 0;
+}
+
+.team-info h2, .heroes-section h2, .common-powers h2, .power-levels h2 {
+    color: #0057b8;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.info-box {
+    background-color: #0057b8;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #0057b8;
+    color: white;
+}
+
+table td {
+    background-color: #f9f9f9;
+}
+
+.quote {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quote a {
+    color: #0057b8;
+    text-decoration: none;
+}
+
+.quote a:hover {
+    text-decoration: underline;
+}
